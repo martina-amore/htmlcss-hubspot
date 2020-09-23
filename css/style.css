@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.root-container {
+/* .root-container {
     margin-left: 10%;
     margin-right: 10%;
-}
+} */
 
 /* Classi da cancellare dopo */
 
@@ -98,16 +98,16 @@
 
 /* Riga 1: barra navigazione iniziale */
 
-.row.row1 {
+.top-bar {
     background-color: #e6eefc;
 }
 
-.row.row1 > .col1 {
+.top-bar-left {
     float: left;
     border: 1px solid black;
 }
 
-.row.row1 > .col2 {
+.top-bar-right {
     float: left;
     border: 1px solid black;
 }
@@ -115,16 +115,16 @@
 
 /* Riga 2: logo e menù navigazione */
 
-.row.row2 {
+.top-navbar {
     background-color: #fcfcfc;
 }
 
-.row.row2 > .col1 {
+.top-navbar-left {
     float: left;
     border: 1px solid black;
 }
 
-.row.row2 > .col2 {
+.top-navbar-right {
     float: left;
     border: 1px solid black;
 }
@@ -132,16 +132,16 @@
 
 /* Riga 3: get Hubspot free + immagine */
 
-.row.row3 {
+.main1 {
     background-color: #fff6e8;
 }
 
-.row.row3 > .col1 {
+.main1-left {
     float: left;
     border: 1px solid black;
 }
 
-.row.row3 > .col2 {
+.main1-right {
     float: left;
     border: 1px solid black;
 }
@@ -149,7 +149,7 @@
 
 /* Riga 4: blocco d'intermezzo */
 
-.row.row4 {
+.break {
     background-color: #AFEEEE;
     border: 1px solid black;
 }
@@ -157,33 +157,33 @@
 
 /* Riga 5: panoramica servizi */
 
-.row.row5 {
+.services{
     background-color: #e6eefc;
 }
 
-.row.row5 > .row1 {
+.services-top {
     border: 1px solid black;
 }
 
-.row.row5 > .row2 {
+.services-center {
     border: 1px solid black;
 }
 
-.row.row5 > .row3 {
+.services-bottom {
     border: 1px solid black;
 }
 
-.row.row5 .col1 {
+.services .left {
     float: left;
     border: 1px solid black;
 }
 
-.row.row5 .col2 {
+.services .center {
     float: left;
     border: 1px solid black;
 }
 
-.row.row5 .col3 {
+.services .right {
     float: left;
     border: 1px solid black;
 }
@@ -191,39 +191,39 @@
 
 /* Riga 6: tabella community */
 
-.row.row6 {
+.table-comm {
     background-color: #20B2AA;
 }
 
-.row.row6 > .row1 {
+.table-comm-top {
     border: 1px solid black;
 }
 
-.row.row6 > .row2 {
+.table-comm-bottom {
     border: 1px solid black;
 }
 
 
 /* Riga 7: get Hubspot free + immagine 2 */
 
-.row.row7 {
+.main2 {
     background-color: #fcfcfc;
 }
 
-.row.row7 > .row1 {
+.main2-top {
     border: 1px solid black;
 }
 
-.row.row7 > .row2 {
+.main2-bottom {
     border: 1px solid black;
 }
 
-.row.row7 .col1 {
+.main2 .left {
     float: left;
     border: 1px solid black;
 }
 
-.row.row7 .col2 {
+.main2 .right {
     float: left;
     border: 1px solid black;
 }
@@ -231,34 +231,34 @@
 
 /* Riga 8: links di fine pagina */
 
-.row.row8 {
+.final-links {
     background-color: #191970;
 }
 
-.row.row8 > .row1 {
+.final-links-top {
     border: 1px solid black;
 }
 
-.row.row8 > .row2 {
+.final-links-bottom {
     border: 1px solid black;
 }
 
-.row.row8 .col1 {
+.final-links .left {
     float: left;
     border: 1px solid black;
 }
 
-.row.row8 .col2 {
+.final-links .center1 {
     float: left;
     border: 1px solid black;
 }
 
-.row.row8 .col3 {
+.final-links .center2 {
     float: left;
     border: 1px solid black;
 }
 
-.row.row8 .col4 {
+.final-links .right {
     float: left;
     border: 1px solid black;
 }
