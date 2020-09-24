@@ -454,12 +454,58 @@ a:link {
     background-color: #20B2AA;
 }
 
+.table-comm .container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .table-comm-top {
     border: 1px solid black;
+    text-align: center;
+    position: relative;
 }
 
 .table-comm-bottom {
     border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+
+
+/* Riga 6: dettagli parte top */
+
+.table-comm-top h2 {
+    color: white;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* Riga 6: tabella parte bottom */
+
+.table-comm-top p {
+    color: white;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.table-comm-bottom table {
+    color: white;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+}
+
+tr, th {
+  padding: 70px;
+  border: 1px solid white;
 }
 
 /* Riga 7: get Hubspot free + immagine 2 */
