@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, Times New Roman;
 }
 
 .root-container {
@@ -371,24 +372,79 @@ a:link {
     transform: translate(0, -50%);
 }
 
-.fa.fa-check-circle {
-    margin-right: 10px;
+.services-center-text2 .fa.fa-check-circle {
+    margin-right: 20px;
 }
 
 .text-after-circle {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 /* Riga 5: dettagli parte bottom */
 
-.services-bottom .sub-container {
+.services-bottom .sub-container-services-bottom {
     height: 100%;
-    /* background-color: white;
-    position: absolute; */
+    background-color: white;
+    position: relative;
+    text-align: center;
 }
 
-.sub-container img {
-    text-align: center;
+.sub-container-services-bottom img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-container-services-bottom h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-container-services-bottom p {
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-bottom hr {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 85%;
+}
+
+.sub-container-services-bottom h3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-bottom-text {
+    text-align: justify;
+    width: 85%;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-bottom-text .fa.fa-check-circle {
+    margin-right: 10px;
+}
+
+.services-bottom input[type="button"] {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
