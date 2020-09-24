@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-/* .root-container {
-    margin-left: 10%;
-    margin-right: 10%;
-} */
+.root-container {
+
+}
 
 /* Classi da cancellare dopo */
 
@@ -89,7 +88,7 @@
 
 /* Clearfix */
 
-.row::after {
+.container::after {
    content: '';
    clear: both;
    display: table;
@@ -102,14 +101,63 @@
     background-color: #e6eefc;
 }
 
+.top-bar .container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .top-bar-left {
     float: left;
     border: 1px solid black;
+    position: relative;
 }
 
 .top-bar-right {
     float: left;
     border: 1px solid black;
+    position: relative;
+}
+
+/* Riga 1, parte sinistra: elementi interni barra navigazione iniziale */
+
+.top-bar-left nav {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    line-height: 30px;
+    transform: translate(0, -50%);
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.menu li {
+    display: inline-block;
+    /* padding-left: 10px; */
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+ }
+
+.top-bar-left .menu {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+
+/* Riga 1, parte destra: elementi interni barra navigazione iniziale */
+
+.top-bar-right nav {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0, -50%);
 }
 
 
@@ -119,13 +167,47 @@
     background-color: #fcfcfc;
 }
 
+.top-navbar .container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .top-navbar-left {
     float: left;
     border: 1px solid black;
+    position: relative;
 }
 
 .top-navbar-right {
     float: left;
+    border: 1px solid black;
+    position: relative;
+}
+
+/* Riga 2, parte sinistra: logo */
+
+.top-navbar-left img {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+    width: 150px;
+}
+
+/* Riga 2, parte destra: barra di navigazione*/
+
+.top-navbar-right nav {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0, -50%);
+    line-height: 30px;
+}
+
+.top-navbar-right .menu {
+    width: 350px;
+    height: 30px;
     border: 1px solid black;
 }
 
@@ -134,11 +216,19 @@
 
 .main1 {
     background-color: #fff6e8;
+
 }
+
+.main1 .container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 .main1-left {
     float: left;
     border: 1px solid black;
+    position: relative;
 }
 
 .main1-right {
@@ -146,31 +236,51 @@
     border: 1px solid black;
 }
 
+/* Riga 3: dettagli interni get Hubspot free */
+
+.main1-left-text {
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+
 
 /* Riga 4: blocco d'intermezzo */
 
 .break {
     background-color: #AFEEEE;
-    border: 1px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 
 /* Riga 5: panoramica servizi */
 
-.services{
+.services {
     background-color: #e6eefc;
+}
+
+.services .container {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .services-top {
     border: 1px solid black;
+    text-align: center;
+    position: relative;
 }
 
 .services-center {
-    border: 1px solid black;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .services-bottom {
     border: 1px solid black;
+    position: relative;
 }
 
 .services .left {
@@ -180,12 +290,105 @@
 
 .services .center {
     float: left;
-    border: 1px solid black;
 }
 
 .services .right {
     float: left;
     border: 1px solid black;
+}
+
+/* Riga 5: dettagli parte top quali immagine e testo sotto */
+
+.services-top img {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.services-top .img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Riga 5: dettagli parte center */
+
+.services-center img {
+    width: 130px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services-center input[type="button"] {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-services-center-left {
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.box-services-center-right {
+    width: 66.6%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.services-center-text {
+    line-height: 200%;
+    position: absolute;
+    top: 35%;
+    transform: translate(0, -50%);
+}
+
+.services-center-text2 {
+    line-height: 200%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.services-center-text2 hr {
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 130%;
+    width: 300%;
+}
+
+.services-center-text3 {
+    line-height: 200%;
+    position: absolute;
+    top: 60%;
+    transform: translate(0, -50%);
+}
+
+.fa.fa-check-circle {
+    margin-right: 10px;
+}
+
+.text-after-circle {
+    margin-right: 10px;
+}
+
+/* Riga 5: dettagli parte bottom */
+
+.services-bottom .sub-container {
+    height: 100%;
+    /* background-color: white;
+    position: absolute; */
+}
+
+.sub-container img {
+    text-align: center;
 }
 
 
@@ -202,7 +405,6 @@
 .table-comm-bottom {
     border: 1px solid black;
 }
-
 
 /* Riga 7: get Hubspot free + immagine 2 */
 

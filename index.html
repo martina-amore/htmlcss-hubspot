@@ -4,78 +4,170 @@
         <meta charset="utf-8">
         <title>Hubspot</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     </head>
 
     <body>
-        <header>
+        <div class="root-container">
 
-        <!-- Barra navigazione iniziale  -->
-            <div class="top-bar h100 w100">
-                <div class="top-bar-left h100 w50"></div>
-                <div class="top-bar-right h100 w50"></div>
-            </div>
 
-        <!-- Logo e menù navigazione -->
-            <div class="top-navbar h100 w100">
-                <div class="top-navbar-left h100 w50"></div>
-                <div class="top-navbar-right h100 w50"></div>
-            </div>
-        </header>
+            <header>
 
-        <main>
-
-        <!-- Get Hubspot free + immagine -->
-            <div class="main1 h700 w100">
-                <div class="main1-left h700 w50"></div>
-                <div class="main1-right h700 w50"></div>
-            </div>
-
-        <!-- Blocco d'intermezzo -->
-            <div class="break h100 w100"></div>
-
-        <!-- Panoramica servizi -->
-            <div class="services h1800 w100">
-                <div class="services-top h450 w100"></div>
-                <div class="services-center h450 w100"></div>
-                <div class="services-bottom">
-                    <div class="left h900 w33"></div>
-                    <div class="center h900 w33"></div>
-                    <div class="right h900 w33"></div>
+            <!-- Riga 1: barra navigazione iniziale  -->
+                <div class="top-bar h100 w100">
+                    <div class="container">
+                        <div class="top-bar-left h100 w50">
+                            <nav>
+                                <ul class="menu">
+                                <li><a href="#"><i class="fa fa-globe" aria-hidden="true"></i> <input type="select" name="top-bar-select" value="English"></a></li>
+                                <li><a href="#">|</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </nav>
+                        </div>
+                        <div class="top-bar-right h100 w50">
+                            <nav>
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <input type="button" name="login" value="Log In">
+                                <input type="button" name="gethubspotfreesmall" value="GetHubspotFree">
+                            </nav>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-        <!-- Tabella community -->
-            <div class="table-comm h800 w100">
-                <div class="table-comm-top h300 w100"></div>
-                <div class="table-comm-bottom h500 w100"></div>
-            </div>
-
-        <!-- Get Hubspot free + immagine 2 -->
-            <div class="main2 h800 w100">
-                <div class="main2-top">
-                    <div class="left h300 w40"></div>
-                    <div class="right h300 w60"></div>
+            <!-- Riga 2: Logo e menù navigazione -->
+                <div class="top-navbar h100 w100">
+                    <div class="container">
+                        <div class="top-navbar-left h100 w50">
+                            <img src="img/hubspot-logo.png" alt="Hubspot logo">
+                        </div>
+                        <div class="top-navbar-right h100 w50">
+                            <nav>
+                                <ul class="menu">
+                                <li><a href="#">Software</a></li>
+                                <li><a href="#">|</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">|</a></li>
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">|</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">|</a></li>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
-                <div class="main2-bottom">
-                    <div class="left h500 w40"></div>
-                    <div class="right h500 w60"></div>
+            </header>
+
+            <main>
+
+            <!-- Riga 3: Get Hubspot free + immagine -->
+                <div class="main1 h700 w100">
+                    <div class="container">
+                        <div class="main1-left h700 w50">
+                            <div class="main1-left-text">
+                                <h1>There's a better way to grow.</h1>
+                                <br>
+                                <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer".</p>
+                                <input type="button" name="gethubspotfreebig" value="GetHubspotFree">
+                            </div>
+                        </div>
+                        <div class="main1-right h700 w50"></div>
+                    </div>
                 </div>
-            </div>
 
-        </main>
+            <!-- Riga 4: Blocco d'intermezzo -->
+                <div class="break h100 w100"></div>
 
-        <footer>
+            <!-- Riga 5: Panoramica servizi -->
+                <div class="services h1800 w100">
+                    <div class="container">
+                        <div class="services-top h450 w100">
+                            <div class="img-text">
+                                <img src="img/cube.png" alt="Immagine cubi">
+                                <h2>Powerful alone. Better together.</h2>
+                                <br>
+                                <p>HubSpot offers a full stack of software for marketing, sales and customer service, with a completely free CRM at its core.
+                                <br>
+                                They're powerful alone - but even better when used together.</p>
+                            </div>
+                        </div>
+                        <div class="services-center h450 w100">
+                            <div class="box-services-center-left">
+                                <img src="img/cash-reg.png" alt="Immagine registratore cassa">
+                                <input type="button" class="button" name="learnmore" value="Learn More">
+                            </div>
+                            <div class="box-services-center-right">
+                                <div class="services-center-text">
+                                    <h2>Free Hubspot CRM</h2>
+                                    <p>Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free. Forever.</p>
+                                </div>
+                                <div class="services-center-text2">
+                                    <h3>POPOLAR FEATURE</h3>
+                                    <hr>
+                                </div>
+                                <div class="services-center-text3">
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span class="text-after-circle">Contact insight</span>
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span class="text-after-circle">Deals</span>
+                                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                    <span class="text-after-circle">Task</span>
+                                </div>
+                            </div>
+                        </div>
 
-        <!-- Links di fine pagina -->
-            <div class="final-links h700 w100">
-                <div class="final-links-top h500 w100">
-                    <div class="left h250 w25"></div>
-                    <div class="center1 h250 w25"></div>
-                    <div class="center2 h250 w25"></div>
-                    <div class="right h250 w25"></div>
+                        <div class="services-bottom">
+                            <div class="left h900 w33">
+                                <div class="sub-container">
+                                    <!-- <img src="" alt="Immagine pallini">
+                                    <h2>Marketing Hub</h2>
+                                    <p>Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+                                    </div> -->
+
+                                </div>
+
+                            </div>
+                            <div class="center h900 w33"></div>
+                            <div class="right h900 w33"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="final-links-bottom h200 w100"></div>
-            </div>
-        </footer>
+
+            <!-- Tabella community -->
+                <div class="table-comm h800 w100">
+                    <div class="table-comm-top h300 w100"></div>
+                    <div class="table-comm-bottom h500 w100"></div>
+                </div>
+
+            <!-- Get Hubspot free + immagine 2 -->
+                <div class="main2 h800 w100">
+                    <div class="main2-top">
+                        <div class="left h300 w40"></div>
+                        <div class="right h300 w60"></div>
+                    </div>
+                    <div class="main2-bottom">
+                        <div class="left h500 w40"></div>
+                        <div class="right h500 w60"></div>
+                    </div>
+                </div>
+
+            </main>
+
+            <footer>
+
+            <!-- Links di fine pagina -->
+                <div class="final-links h700 w100">
+                    <div class="final-links-top h500 w100">
+                        <div class="left h250 w25"></div>
+                        <div class="center1 h250 w25"></div>
+                        <div class="center2 h250 w25"></div>
+                        <div class="right h250 w25"></div>
+                    </div>
+                    <div class="final-links-bottom h200 w100"></div>
+                </div>
+            </footer>
+
+        </div>
     </body>
 </html>
