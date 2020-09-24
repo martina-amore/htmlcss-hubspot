@@ -5,8 +5,9 @@
     font-family: Roboto, Times New Roman;
 }
 
-.root-container {
-
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Classi da cancellare dopo */
@@ -102,11 +103,6 @@
     background-color: #e6eefc;
 }
 
-.top-bar .container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .top-bar-left {
     float: left;
     border: 1px solid black;
@@ -168,11 +164,6 @@ a:link {
     background-color: #fcfcfc;
 }
 
-.top-navbar .container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .top-navbar-left {
     float: left;
     border: 1px solid black;
@@ -220,10 +211,6 @@ a:link {
 
 }
 
-.main1 .container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 
 .main1-left {
@@ -262,10 +249,6 @@ a:link {
     background-color: #e6eefc;
 }
 
-.services .container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 .services-top {
     border: 1px solid black;
@@ -452,11 +435,6 @@ a:link {
 
 .table-comm {
     background-color: #20B2AA;
-}
-
-.table-comm .container {
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .table-comm-top {
