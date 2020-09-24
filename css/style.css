@@ -466,14 +466,14 @@ a:link {
     color: white;
     top: 50%;
     left: 50%;
-    width: 80%;
+    width: 100%;
     position: absolute;
     transform: translate(-50%, -50%);
 }
 
 .table-comm-bottom table {
     color: white;
-    width: 80%;
+    width: 100%;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -486,6 +486,7 @@ tr, th {
   border: 1px solid white;
 }
 
+
 /* Riga 7: get Hubspot free + immagine 2 */
 
 .main2 {
@@ -494,20 +495,77 @@ tr, th {
 
 .main2-top {
     border: 1px solid black;
+    position: relative;
 }
 
 .main2-bottom {
     border: 1px solid black;
+    position: relative;
 }
 
 .main2 .left {
     float: left;
     border: 1px solid black;
+    position: relative;
 }
 
 .main2 .right {
     float: left;
     border: 1px solid black;
+    position: relative;
+}
+
+/* Riga 7: parte top-left */
+
+.main2-top .left > .text {
+    width: 30%;
+    top: 50%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* Riga 7: parte top-right */
+
+.brand-logos > img {
+    width: 130px;
+}
+
+.brand-logos {
+    top: 35%;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+/* Riga 7: parte bottom-left */
+
+.main2-bottom .left > .text {
+    top: 30%;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.main2-bottom input[type="button"] {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.main2-bottom .left > .text2 {
+    top: 60%;
+    position: absolute;
+    transform: translate(0, -50%);
+    font-size: 10px;
+}
+
+/* Riga 7: parte bottom-right */
+
+.main2-bottom .right > img {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
