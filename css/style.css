@@ -141,7 +141,6 @@ a:link {
  }
 
 .top-bar-left .menu {
-    width: 300px;
     height: 30px;
     border: 1px solid black;
 }
@@ -198,7 +197,6 @@ a:link {
 }
 
 .top-navbar-right .menu {
-    width: 350px;
     height: 30px;
     border: 1px solid black;
 }
@@ -572,7 +570,7 @@ tr, th {
 /* Riga 8: links di fine pagina */
 
 .final-links {
-    background-color: #191970;
+    background-color: #32495b;
 }
 
 .final-links-top {
@@ -581,6 +579,7 @@ tr, th {
 
 .final-links-bottom {
     border: 1px solid black;
+    position: relative;
 }
 
 .final-links .left {
@@ -601,4 +600,102 @@ tr, th {
 .final-links .right {
     float: left;
     border: 1px solid black;
+    position: relative;
+}
+
+/* Riga 8: dettagli parte top links */
+
+.links {
+    margin-top: 5%;
+    line-height: 150%;
+}
+
+.links h4 {
+    color: #e6eefc;
+    margin-bottom: 5%;
+}
+
+.links a:hover {
+    color: hotpink;
+}
+
+.links a:link {
+    color: #e6eefc;
+}
+
+.links a:visited {
+    color: #e6eefc;
+}
+
+.final-links-top input[type="button"] {
+    position: absolute;
+    bottom: 10%;
+    transform: translate(0, -50%);
+}
+
+.final-links-top .icons {
+    position: absolute;
+    bottom: 0;
+    transform: translate(0, -50%);
+    color: #e6eefc;
+}
+
+/* Riga 8: dettagli parte bottom */
+
+.final-bottom-navbar > nav {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 30px;
+}
+
+.final-links-bottom ul.menu a {
+    color: #e6eefc;
+    margin: 10px;
+}
+
+.final-links-bottom ul.menu a:visited {
+    color: #e6eefc;
+}
+
+.final-links-bottom ul.menu a:hover {
+    color: hotpink;
+}
+
+.final-links-bottom hr {
+    border: 1px solid #e6eefc;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.final-bottom-logo img {
+    width: 150px;
+    position: absolute;
+    top: 70%;
+    transform: translate(0, -50%);
+}
+
+.final-bottom-text {
+    color: #e6eefc;
+    position: absolute;
+    top: 90%;
+    transform: translate(0, -50%);
+}
+
+.final-bottom-navbar2 > nav {
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    transform: translate(0, -50%);
+    line-height: 30px;
+}
+
+.final-bottom-navbar2 .menu {
+    height: 30px;
 }
