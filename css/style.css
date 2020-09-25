@@ -322,7 +322,7 @@ a:link {
 /* Riga 4: blocco d'intermezzo */
 
 .break {
-    background-color: #AFEEEE;
+    background-color: #afebe4;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
@@ -331,12 +331,10 @@ a:link {
 /* Riga 5: panoramica servizi */
 
 .services {
-    background-color: #e6eefc;
+    background-color: #f4f9fd;
 }
 
-
 .services-top {
-    border: 1px solid black;
     text-align: center;
     position: relative;
 }
@@ -345,6 +343,12 @@ a:link {
     position: relative;
     border-radius: 5px;
     background-color: white;
+}
+
+.subcontainer-center {
+    padding-left: 12%;
+    padding-right: 12%;
+    position: relative;
 }
 
 .services-bottom {
@@ -369,8 +373,7 @@ a:link {
 /* Riga 5: dettagli parte top quali immagine e testo sotto */
 
 .services-top img {
-    width: 300px;
-    border: 1px solid black;
+    width: 150px;
 }
 
 .services-top .img-text {
@@ -386,15 +389,23 @@ a:link {
     width: 130px;
     position: absolute;
     top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
 }
 
-.services-center input[type="button"] {
+.services-center input[name="learnmore"] {
     position: absolute;
     top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
+    border: 1px solid #fe775a;
+    color: white;
+    border-radius: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #fe775a;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .box-services-center-left {
@@ -412,7 +423,7 @@ a:link {
 }
 
 .services-center-text {
-    line-height: 200%;
+    line-height: 150%;
     position: absolute;
     top: 35%;
     transform: translate(0, -50%);
@@ -421,14 +432,14 @@ a:link {
 .services-center-text2 {
     line-height: 200%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translate(0, -50%);
 }
 
 .services-center-text2 hr {
     border: 1px solid black;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 130%;
     width: 300%;
 }
@@ -436,12 +447,13 @@ a:link {
 .services-center-text3 {
     line-height: 200%;
     position: absolute;
-    top: 60%;
+    top: 75%;
     transform: translate(0, -50%);
 }
 
-.services-center-text2 .fa.fa-check-circle {
-    margin-right: 20px;
+.services-center-text3 .fa.fa-check-circle {
+    margin-right: 15px;
+    color: #fe775a;
 }
 
 .text-after-circle {
