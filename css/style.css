@@ -100,18 +100,16 @@
 /* Riga 1: barra navigazione iniziale */
 
 .top-bar {
-    background-color: #e6eefc;
+    background-color: #f4f9fd;
 }
 
 .top-bar-left {
     float: left;
-    border: 1px solid black;
     position: relative;
 }
 
 .top-bar-right {
     float: left;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -132,19 +130,36 @@ ul {
 
 ul.menu li {
     display: inline-block;
-    /* padding-left: 10px; */
+    margin-right: 15px;
 }
 
 a:link {
     text-decoration: none;
-    color: black;
  }
+
+ .top-bar-left ul.menu a {
+     color: black;
+ }
+
+ .top-bar-left ul.menu a:visited {
+     color: black;
+ }
+
+ .top-bar-left ul.menu a:hover {
+     color: #fe775a;
+ }
+
+
+.top-bar-left select {
+    border: transparent;
+    background-color: #f4f9fd;
+    font-family: Roboto, Times New Roman;
+    font-size: 15px;
+}
 
 .top-bar-left .menu {
     height: 30px;
-    border: 1px solid black;
 }
-
 
 /* Riga 1, parte destra: elementi interni barra navigazione iniziale */
 
@@ -156,11 +171,39 @@ a:link {
     transform: translate(0, -50%);
 }
 
+.top-bar-right .fa.fa-search {
+    color: #00a4bd;
+}
+
+
+.top-bar-right input[name="login"] {
+    border: 1px solid #fe775a;
+    color: #fe775a;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-bar-right input[name="gethubspotfreesmall"] {
+    border: 1px solid #fe775a;
+    color: white;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fe775a;
+}
+
 
 /* Riga 2: logo e menù navigazione */
 
 .top-navbar {
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 }
 
 .top-navbar-left {
