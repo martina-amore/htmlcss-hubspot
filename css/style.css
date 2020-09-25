@@ -36,6 +36,10 @@
     height: 1800px;
 }
 
+.h1500 {
+    height: 1500px;
+}
+
 .h800 {
     height: 800px;
 }
@@ -94,6 +98,14 @@
 
 .h200 {
     height: 200px;
+}
+
+.h875 {
+    height: 875px;
+}
+
+.h1600 {
+    height: 1600px;
 }
 
 /* Clearfix */
@@ -352,22 +364,32 @@ a:link {
 }
 
 .services-bottom {
-    border: 1px solid black;
     position: relative;
 }
 
 .services .left {
     float: left;
-    border: 1px solid black;
+    border-radius: 5px;
+    width: calc(100% / 3 - 30px);
+    margin-right: 30px;
+    margin-top: 45px;
 }
 
 .services .center {
     float: left;
+    border-radius: 5px;
+    width: calc(100% / 3 - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 45px;
 }
 
 .services .right {
     float: left;
-    border: 1px solid black;
+    border-radius: 5px;
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 45px;
 }
 
 /* Riga 5: dettagli parte top quali immagine e testo sotto */
@@ -465,15 +487,17 @@ a:link {
 .services-bottom .sub-container-services-bottom {
     height: 100%;
     background-color: white;
+    border-radius: 5px;
     position: relative;
     text-align: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .sub-container-services-bottom img {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
 }
 
 .sub-container-services-bottom h2 {
@@ -512,19 +536,29 @@ a:link {
     width: 85%;
     position: absolute;
     bottom: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
 }
 
 .services-bottom-text .fa.fa-check-circle {
     margin-right: 10px;
+    color: #fe775a;
 }
 
 .services-bottom input[type="button"] {
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid #fe775a;
+    color: white;
+    border-radius: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #fe775a;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
