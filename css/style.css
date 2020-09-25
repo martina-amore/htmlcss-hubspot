@@ -104,6 +104,22 @@
     height: 875px;
 }
 
+.h650 {
+    height: 650px;
+}
+
+.h525 {
+    height: 525px;
+}
+
+.h275 {
+    height: 275px;
+}
+
+.h475 {
+    height: 475px;
+}
+
 .h1600 {
     height: 1600px;
 }
@@ -544,7 +560,7 @@ a:link {
     color: #fe775a;
 }
 
-.services-bottom input[type="button"] {
+.services-bottom input[name="learnmore"] {
     position: absolute;
     bottom: 0%;
     left: 50%;
@@ -569,22 +585,20 @@ a:link {
 }
 
 .table-comm-top {
-    border: 1px solid black;
     text-align: center;
     position: relative;
 }
 
 .table-comm-bottom {
-    border: 1px solid black;
     text-align: center;
     position: relative;
 }
-
 
 /* Riga 6: dettagli parte top */
 
 .table-comm-top h2 {
     color: white;
+    width: 100%;
     top: 30%;
     left: 50%;
     position: absolute;
@@ -595,7 +609,7 @@ a:link {
 
 .table-comm-top p {
     color: white;
-    top: 50%;
+    top: 70%;
     left: 50%;
     width: 100%;
     position: absolute;
@@ -610,11 +624,51 @@ a:link {
     position: absolute;
     transform: translate(-50%, -50%);
     border-collapse: collapse;
+    line-height: 40px;
 }
 
 tr, th {
-  padding: 70px;
-  border: 1px solid white;
+  padding: 40px;
+}
+
+.tr1 > th:nth-child(1) {
+    border-bottom: 1px white solid;
+    border-right: 1px white solid;
+}
+
+.tr1 > th:nth-child(2) {
+    border-bottom: 1px white solid;
+    border-right: 1px white solid;
+}
+
+.tr1 > th:nth-child(3) {
+    border-bottom: 1px white solid;
+    border-right: 1px white solid;
+}
+
+.tr1 > th:nth-child(4) {
+    border-bottom: 1px white solid;
+}
+
+.tr2 > th:nth-child(1) {
+    border-right: 1px white solid;
+}
+
+.tr2 > th:nth-child(2) {
+    border-right: 1px white solid;
+}
+
+.tr2 > th:nth-child(3) {
+    border-right: 1px white solid;
+}
+
+th > img {
+    width: 50px;
+}
+
+.text-small {
+    font-size: 12px;
+    font-weight: normal;
 }
 
 
@@ -625,24 +679,20 @@ tr, th {
 }
 
 .main2-top {
-    border: 1px solid black;
     position: relative;
 }
 
 .main2-bottom {
-    border: 1px solid black;
     position: relative;
 }
 
 .main2 .left {
     float: left;
-    border: 1px solid black;
     position: relative;
 }
 
 .main2 .right {
     float: left;
-    border: 1px solid black;
     position: relative;
 }
 
@@ -676,14 +726,24 @@ tr, th {
     transform: translate(0, -50%);
 }
 
-.main2-bottom input[type="button"] {
+.main2-bottom input[name="gethubspotfreebig"] {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+    border: 1px solid #fe775a;
+    color: white;
+    border-radius: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #fe775a;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .main2-bottom .left > .text2 {
-    top: 60%;
+    top: 70%;
     position: absolute;
     transform: translate(0, -50%);
     font-size: 10px;
@@ -692,11 +752,11 @@ tr, th {
 /* Riga 7: parte bottom-right */
 
 .main2-bottom .right > img {
-    width: 300px;
+    width: 500px;
     position: absolute;
-    left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    transform: translate(0, -50%);
 }
 
 
@@ -706,40 +766,31 @@ tr, th {
     background-color: #32495b;
 }
 
-.final-links-top {
-    border: 1px solid black;
-}
-
 .final-links-bottom {
-    border: 1px solid black;
     position: relative;
 }
 
 .final-links .left {
     float: left;
-    border: 1px solid black;
 }
 
 .final-links .center1 {
     float: left;
-    border: 1px solid black;
 }
 
 .final-links .center2 {
     float: left;
-    border: 1px solid black;
 }
 
 .final-links .right {
     float: left;
-    border: 1px solid black;
     position: relative;
 }
 
 /* Riga 8: dettagli parte top links */
 
 .links {
-    margin-top: 5%;
+    margin-top: 8%;
     line-height: 150%;
 }
 
@@ -760,18 +811,26 @@ tr, th {
     color: #e6eefc;
 }
 
-.final-links-top input[type="button"] {
+.final-links-top input[name="contacthubspot"] {
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     transform: translate(0, -50%);
+    border-radius: 5px;
+    border: white;
+    padding: 10px;
 }
 
 .final-links-top .icons {
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     transform: translate(0, -50%);
     color: #e6eefc;
 }
+
+.fa.fa-facebook, .fa.fa-instagram, .fa.fa-youtube-play, .fa.fa-twitter {
+    margin-right: 21px;
+}
+
 
 /* Riga 8: dettagli parte bottom */
 
@@ -808,9 +867,9 @@ tr, th {
 }
 
 .final-bottom-logo img {
-    width: 150px;
+    width: 100px;
     position: absolute;
-    top: 70%;
+    top: 75%;
     transform: translate(0, -50%);
 }
 
