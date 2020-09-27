@@ -648,6 +648,6 @@ tr, th {
     color: hotpink;
 }
 
-.final-bottom-navbar-bottom a:visited {
+.final-bottom-navbar-bottom a, .final-bottom-navbar-bottom a:visited {
     color: #e6eefc;
 }
