@@ -643,3 +643,11 @@ tr, th {
 .final-bottom-navbar-bottom ul.menu a {
     margin-left: 10px;
 }
+
+.final-bottom-navbar-bottom a:hover {
+    color: hotpink;
+}
+
+.final-bottom-navbar-bottom a:visited {
+    color: #e6eefc;
+}
